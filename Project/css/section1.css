@@ -1,0 +1,148 @@
+.section1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.section1_title {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-bottom: 19px;
+}
+
+.section1_title_orange {
+  color: #eebf3e;
+}
+
+.section1_wrapper {
+  background-image: url(../images/section1_bg_320.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 235px;
+  position: relative;
+}
+
+.section1_photo1 {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 35px;
+  left: 115px;
+}
+
+.section1_photo2 {
+  width: 110px;
+  height: auto;
+  position: absolute;
+  top: 95px;
+  left: 55px;
+  z-index: 5;
+}
+
+@media (min-width: 768px) {
+  .section1 {
+  }
+
+  .section1_title {
+    font-size: 35px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 30px;
+  }
+
+  .section1_title_orange {
+  }
+
+  .section1_wrapper {
+    margin: 0 50px;
+    background-image: url(../images/section1_bg_768.png);
+    background-size: contain;
+    height: 480px;
+  }
+
+  .section1_photo1 {
+    width: 335px;
+    position: absolute;
+    top: 60px;
+    left: 290px;
+  }
+
+  .section1_photo2 {
+    width: 250px;
+    position: absolute;
+    top: 185px;
+    left: 140px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section1_title {
+    width: 36%;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+
+  .section1_title_orange {
+  }
+
+  .section1_wrapper {
+    width: 50%;
+    margin: 0;
+    margin-left: 70px;
+    background-image: url(../images/section1_bg_768.png);
+  }
+
+  .section1_photo1 {
+  }
+
+  .section1_photo2 {
+  }
+}
+
+@media (min-width: 1920px) {
+  .section1 {
+    max-width: 1920px;
+  }
+
+  .section1_title {
+    width: 36%;
+    font-size: 55px;
+    margin-right: 100px;
+  }
+
+  .section1_title_orange {
+  }
+
+  .section1_wrapper {
+    width: 50%;
+    margin-left: 100px;
+    background-image: url(../images/section1_bg_768.png);
+    height: 730px;
+  }
+
+  .section1_photo1 {
+    width: 480px;
+    top: 85px;
+    left: 350px;
+  }
+
+  .section1_photo2 {
+    width: 355px;
+    top: 245px;
+    left: 200px;
+  }
+}

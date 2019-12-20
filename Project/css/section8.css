@@ -1,0 +1,264 @@
+.section8 {
+  background-image: url(../images/section8_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 100%;
+  margin-bottom: 55px;
+  padding-bottom: 20px;
+}
+
+.section8__text {
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+
+.section8__text--title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.section8__text--title::before {
+  content: "[";
+  color: #fec12b;
+  display: inline-block;
+  margin-right: 5px;
+}
+.section8__text--title::after {
+  content: "]";
+  color: #fec12b;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.section8__text--info {
+  font-size: 16px;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+}
+.section8_text_row {
+  font-size: 16px;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+}
+
+.section8_planet_img {
+  display: none;
+}
+.section8__sertificate {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.section8_img_certificate {
+  width: 143px;
+  height: auto;
+}
+
+.first {
+  width: 162px;
+  position: absolute;
+  left: 50%;
+  top: -5%;
+  transform: translate(-50%, 0);
+  z-index: 5;
+}
+
+.second {
+}
+
+.third {
+}
+
+/* ///////////////////////////////////// */
+@media (min-width: 768px) {
+  .section8 {
+    background-image: url(../images/section8_background_tablet.png);
+    padding-top: 0;
+    background-size: cover;
+  }
+
+  .section8_wraper {
+    position: relative;
+  }
+
+  .section8__text {
+    text-align: left;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-left: 80px;
+  }
+
+  .section8__text--title {
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  .section8__text--info {
+    font-size: 25px;
+  }
+
+  .section8_text_row {
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  .section8_planet_img {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    width: 235px;
+  }
+  .section8__sertificate {
+    padding-top: 70px;
+    background-image: url("../images/confeti_768.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section8_img_certificate {
+    width: 230px;
+  }
+
+  .first {
+    width: 250px;
+    top: 15%;
+  }
+
+  .second {
+  }
+
+  .third {
+  }
+}
+
+/* ////////////////////////////////////////// */
+@media (min-width: 1200px) {
+  .section8 {
+    background-image: url(../images/section8_background_1200px.png);
+    background-size: cover;
+    margin-bottom: 80px;
+    padding-bottom: 135px;
+  }
+  .section8_wraper {
+    position: relative;
+    display: flex;
+    padding: 0 0 0 170px;
+  }
+  .section8__text {
+    padding-top: 95px;
+    width: 380px;
+    padding-left: 0;
+  }
+
+  .section8__text--title {
+    font-size: 20px;
+  }
+  .section8__text--info {
+  }
+
+  .section8_text_row {
+  }
+
+  .section8_planet_wrapper {
+    width: 134px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+  .section8_planet_img {
+    position: static;
+  }
+
+  .section8__sertificate {
+    padding-right: 170px;
+    padding-top: 95px;
+    width: 700px;
+  }
+
+  .section8_img_certificate {
+    width: 235px;
+  }
+
+  .first {
+    top: 18%;
+    left: 37%;
+    width: 255px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .section8 {
+    max-width: 1920px;
+    background-image: url(../images/section8_background_1200px.png);
+    background-size: cover;
+    margin-bottom: 100px;
+  }
+
+  .section8_wraper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 370px;
+  }
+
+  .section8__text {
+    padding-top: 200px;
+    width: 520px;
+  }
+
+  .section8__text--title {
+    font-size: 30px;
+    margin-bottom: 55px;
+  }
+  .section8__text--info {
+  }
+
+  .section8_text_row {
+    font-size: 35px;
+  }
+
+  .section8_planet_wrapper {
+    width: 210px;
+    height: 160px;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    overflow: visible;
+  }
+
+  .section8_planet_img {
+    position: static;
+  }
+  .section8__sertificate {
+    padding-right: 260px;
+    padding-top: 200px;
+    width: 920px;
+    margin: 0;
+  }
+
+  .section8_img_certificate {
+    width: 320px;
+  }
+
+  .first {
+    top: 27%;
+    left: 35%;
+    width: 350px;
+  }
+}
