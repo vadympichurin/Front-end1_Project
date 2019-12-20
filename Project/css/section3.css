@@ -1,0 +1,252 @@
+.section3 {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.first-title_section3 {
+  color: #2c2c2c;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  width: 200px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.first-title_section3::before {
+  content: "\005B";
+  color: #eebf3e;
+}
+
+.first-title_section3::after {
+  content: "\005D";
+  color: #eebf3e;
+}
+
+.second-title_section3 {
+  color: #eebf3e;
+  font-size: 16px;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 35px;
+}
+
+.cards_section3 {
+  margin: auto;
+  text-align: center;
+}
+
+.card1_section3 {
+  text-align: left;
+  height: 230px;
+  background: #f5f9fe;
+  padding: 35px;
+}
+
+.card2-gs_section3 {
+  text-align: left;
+  background: #e8f1fa;
+  height: 230px;
+  padding: 40px;
+}
+
+.card1-dg_section3 {
+  text-align: left;
+  height: 230px;
+  background: #f5f9fe;
+  padding: 35px;
+}
+
+.card2_section3 {
+  text-align: left;
+  background: #e8f1fa;
+  height: 230px;
+  padding: 40px;
+}
+
+.title-card_section3 {
+  color: #2c2c2c;
+  margin: auto;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.title-card_section3::before {
+  content: url(../images/section3_star.png);
+  padding-right: 10px;
+}
+
+.age-card_section3 {
+  color: #eebf3e;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.age-card_section3::after {
+  content: "років";
+  font-size: 13px;
+  color: #eebf3e;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eebf3e;
+  vertical-align: 20px;
+}
+
+.description_section3 {
+  font-size: 14px;
+  color: #2c2c2c;
+}
+
+@media (min-width: 768px) {
+  .first-title_section3 {
+    font-size: 20px;
+    width: 655px;
+  }
+
+  .second-title_section3 {
+    font-size: 20px;
+    width: 460px;
+  }
+
+  .cards_section3 {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card1_section3 {
+    width: 320px;
+    padding: 35px;
+  }
+
+  .card2-gs_section3 {
+    background: #f5f9fe;
+    width: 320px;
+    padding: 35px;
+  }
+
+  .card1-dg_section3 {
+    width: 320px;
+    background: #e8f1fa;
+    padding: 40px;
+  }
+
+  .card2_section3 {
+    width: 320px;
+    padding: 40px;
+  }
+
+  .image_section3 {
+    width: 50px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card1_section3 {
+    width: 285px;
+    height: 285px;
+  }
+
+  .card2_section3 {
+    width: 285px;
+    height: 285px;
+  }
+
+  .card1-dg_section3 {
+    width: 285px;
+    height: 285px;
+    text-align: left;
+    background: #f5f9fe;
+  }
+
+  .card2-gs_section3 {
+    width: 285px;
+    height: 285px;
+    text-align: left;
+    background: #e8f1fa;
+  }
+
+  .cards_section3 {
+    width: 1140px;
+    display: flex;
+  }
+
+  .age-card_section3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .title-card_section3 {
+    font-size: 21px;
+    padding-bottom: 27px;
+  }
+
+  .description_section3 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .section3 {
+    margin-bottom: 65px;
+    margin-top: 65px;
+  }
+
+  .card1_section3 {
+    width: 380px;
+    height: 320px;
+  }
+
+  .card2_section3 {
+    width: 380px;
+    height: 320px;
+  }
+
+  .card1-dg_section3 {
+    width: 380px;
+    height: 320px;
+  }
+
+  .card2-gs_section3 {
+    width: 380px;
+    height: 320px;
+  }
+
+  .cards_section3 {
+    width: 1520px;
+  }
+
+  .first-title_section3 {
+    font-size: 30px;
+    width: 980px;
+  }
+
+  .second-title_section3 {
+    font-size: 30px;
+    width: 630px;
+  }
+
+  .age-card_section3 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
+  .title-card_section3 {
+    font-size: 30px;
+    padding-bottom: 27px;
+  }
+
+  .description_section3 {
+    color: #282828;
+    width: 260px;
+  }
+
+  .image_section3 {
+    width: 65px;
+    height: auto;
+  }
+}
