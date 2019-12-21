@@ -1,0 +1,403 @@
+
+.section7__title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.section7__container{
+    position: relative;
+    padding: 0 25px;
+}
+.section7{
+    align-self: center;
+    width: 320px;
+    height: auto;
+    margin: auto;
+}
+
+.section7__title:before {
+    content: '[ ';
+    color: #EEBF3E;
+}
+
+.section7__title:after {
+    content: ' ]';
+    color: #EEBF3E;
+}
+
+
+.section7__card1 {
+    width: 271px;
+    height: 595px;
+    margin: auto;
+    box-shadow: 0px 10px 30px 0px rgba(2, 2, 1, 0.07);
+}
+
+.section7__card2 {
+    display: none;
+    width: 271px;
+    height: 595px;
+    margin: auto;
+    box-shadow: 0px 10px 30px 0px rgba(2, 2, 1, 0.07);
+}
+
+.section7__card3 {
+    display: none;
+    width: 270px;
+    height: 595px;
+    margin: auto;
+    box-shadow: 0px 10px 30px 0px rgba(2, 2, 1, 0.07);
+}
+
+.section7__card1--photo {
+    height: 290px;
+    width: 270px;
+    position: relative;
+    background-image: url('../images/teacher1_1920.jpg');
+    background-position: center;
+}
+
+.section7__card2--photo {
+    height: 290px;
+    width: 270px;
+    position: relative;
+    background-image: url('../images/teacher2_1920.jpg');
+    background-position: center;
+}
+
+.section7__card3--photo {
+    height: 290px;
+    width: 270px;
+    position: relative;
+    background-image: url('../images/teacher3_1920.png');
+    background-position: center;
+}
+
+
+ .section7__arrowleft {
+     content: "&#8594";
+    width: 41px;
+    height: 41px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    color: lightgrey;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 4px;
+    top: 120px;
+    box-shadow: 2px 2px 2px gray;
+    transform: scale(-1, 1);
+    font-size: 16px;
+}
+
+.section7__arrowleft:hover {
+    color: #5F7CEC;
+}
+
+.section7__arrowright:hover{
+    color: #5F7CEC;
+}
+
+.section7__arrowright {
+    border: none;
+    font-size: 16px;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: white;
+    color: lightgrey; 
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 4px; 
+    top: 120px;
+    box-shadow: 2px 2px 2px gray;
+} 
+
+.section7__card--text{
+    width: 234px;
+    height: 232px;
+    margin: auto;
+    font-size: 16px;
+}
+
+li:before {
+    content: "- ";
+}
+
+li {
+    list-style: none;
+}
+
+.section7__card--div__text {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section7__card--list {
+    padding: 0px;
+    align-self: flex-start;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section7__card--tutor__name {
+    
+    font-size: 20px;
+}
+
+
+.section7__card--div__tutor--name {
+    background-color: #5F7CEC;
+    color: white;
+    width: 220px;
+    height: 36px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section7__card--div__tutor--name {
+    bottom: 20px;
+    position: relative;
+    margin: auto;
+}
+
+@media (device-width: 768px){
+
+    .section7__container {
+        width: 381px;
+        margin: auto;
+        padding: 0;
+    }
+    .section7{
+        padding-top: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .section7__title {
+        margin-bottom: 20px;
+    }
+
+    .section7__arrowleft {
+       width: 41px;
+       height: 41px;
+       left: -20px;
+       top: 46%;
+       transform: scale(-1, 1);
+   }
+   
+   .section7__arrowright {
+       font-size: 16px;
+       width: 41px;
+       height: 41px;
+       right: -20px; 
+       top: 46%;
+    }
+
+
+    .section7__card1 {
+        width: 381px;
+        height: 587px;
+    }
+
+    .section7__card1--photo {
+        width: 381px;
+        height: 291px;
+    }
+
+    .section7__card--text {
+        width: 289px;
+        height: 205px;
+    }
+
+    .section7__card--div__tutor--name {
+        right: 40px;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    /* .section7 {
+        margin-bottom: 100px;
+    } */
+
+
+    .section7__title{
+        margin-bottom: 55px;
+    }
+
+    .section7__container {
+        display: flex;
+    }
+
+
+    .section7__arrowleft {
+        width: 51px;
+        height: 51px;
+        left: 0px;
+        top: 46%;
+    }
+    
+    .section7__arrowright {
+        width: 51px;
+        height: 51px;
+        right: 0px; 
+        top: 46%;
+     }
+
+    .section7__card2, .section7__card3 {
+        display: inline;
+    }
+    
+    .section7__card2--photo, .section7__card3--photo {
+        margin: auto;
+    }
+
+    .section7__card--text {
+        margin: auto;
+    }
+
+    .section7__card1 {
+        width: 366px;
+        height: 587px;
+    }
+
+    .section7__card2 {
+        width: 366px;
+        height: 587px;
+    }
+
+    .section7__card3 {
+        width: 366px;
+        height: 587px;
+    }
+
+    .section7__card1--photo, .section7__card2--photo, .section7__card3--photo {
+        width: 366px;
+        height: 291;
+    }
+
+    .section7__card--text {
+        width: 307px;
+        height: 205px;
+    }
+
+    .section7 {
+        justify-content: space-around;
+        width: 1200px;
+        margin: auto;
+        padding-top: 70px;
+        margin-bottom: 100px;
+    }
+   
+    .section7__card--tutor__name {
+        margin: auto;
+    }
+
+    .section7__card2--div__tutor--name {
+        font-size: 16px;
+        width: 189px;
+        height: 36px;
+    }
+
+    .section7__card2--div__tutor--name {
+        width: 199px;
+        height: 36px;
+    }
+
+    .section7__card--div__tutor--name {
+        right: 45px;
+    }
+
+    .section7__card--text {
+        margin-left: 23px;
+        margin-right: 68px;
+        margin: auto;
+    }
+}
+
+@media (device-width: 1920px) {
+
+    .section7 {
+        margin-bottom: 100px;
+    }
+
+    .section7__card2{
+        width: 381px;
+        height: 587px;
+    }
+
+
+    .section7__card2, .section7__card3 {
+        display: inline;
+    }
+    
+    .section7__card2--photo, .section7__card3--photo {
+        margin: auto;
+    }
+
+    .section7__container {
+        width: 1200px;
+        margin: auto;
+    }
+
+    .section7{
+        width: 100%;
+        align-self: center;
+        height: auto;
+        position: relative;
+    }
+
+    .section7__card--text {
+        margin: auto;
+    }
+
+    .section7__card1, .section7__card2, .section7__card3 {
+        width: 381px;
+        height: 587px;
+    }
+
+    .section7__card1--photo, .section7__card2--photo, .section7__card3--photo {
+        width: 381px;
+        height: 291;
+    }
+
+   
+    .section7__card--tutor__name {
+        margin: auto;
+    }
+
+    .section7__card2--div__tutor--name {
+        width: 189px;
+        height: 36px;
+    }
+
+    .section7__card2--div__tutor--name {
+        width: 199px;
+        height: 36px;
+    }
+
+
+    .section7__card--div__tutor--name {
+        right: 45px;
+    }
+
+    .section7__card--text {
+        width: 307px;
+        height: 205px;
+        margin-left: 23px;
+        margin-right: 68px;
+        margin: auto;
+    }
+}
